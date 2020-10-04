@@ -45,7 +45,11 @@ master branch에서 프로그램을 배포하기 전, 배포 전략에 대한 �
 
 ## Features branch
 
-작성자 : 
+작성자 : 남현기
+
+Feature Branch는 Deveplop에서 파생되어 추가적인 feature을 개발할 때 사용하는 Branch이다.
+
+추가 Feature가 개발이 완료되면 **Feature에 존재하는 모든 commit들은 Develop Branch에 rebase된다.**
 
 ## Hotfix branch
 
