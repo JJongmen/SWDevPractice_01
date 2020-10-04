@@ -57,5 +57,6 @@ Feature Branch는 Deveplop에서 파생되어 추가적인 feature을 개발할 
 
 ## Release branch
 
-작성자 : 
+작성자 : 이의형
 
+Develop branch를 거쳐 master branch 에 있는 release 준비가 완료된 작업물을 버전 태깅을 거쳐 최종적으로 결과물 release를 진행하는 branch.
