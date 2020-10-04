@@ -9,11 +9,11 @@ Team 이준혁의 Github workflow 에 대한 설명을 하는 md파일입니다.
 
 각 branch를 설명할 팀원은 다음과 같습니다.
 > ### branch 설명담당
-> * master - 
-> * develop -
-> * features -
-> * hotfix -
-> * release -
+> * master - 이준혁
+> * develop - 박종윤
+> * features - 남현기
+> * hotfix - 최종인
+> * release - 이의형
 
 3. 작업이 끝나면 Fork한 repository에 작업을 병합시킨 후, Fork한 repository의 원본 repository로 pull request를 진행합니다.
 
@@ -33,7 +33,11 @@ fork repository와 원본 repository에 충돌이 발생했을 때 해결하는 
 
 ## Master branch
 
-작성자 : 
+작성자 : 이준혁
+
+develop에서 개발이 완료된 기능들을 중간정리 및 관리를 하는 branch. 다시말해 develop의 작업물을 중간저장하는 branch로 볼 수 있다.
+master branch에서 프로그램을 배포하기 전, 배포 전략에 대한 전략수립을 한다. 완성된 전략에 따라서 release branch에서 배포를 진행한다.
+
 
 ## Develop branch
 
@@ -45,7 +49,11 @@ fork repository와 원본 repository에 충돌이 발생했을 때 해결하는 
 
 ## Features branch
 
-작성자 : 
+작성자 : 남현기
+
+Feature Branch는 Deveplop에서 파생되어 추가적인 feature을 개발할 때 사용하는 Branch이다.
+
+추가 Feature가 개발이 완료되면 **Feature에 존재하는 모든 commit들은 Develop Branch에 rebase된다.**
 
 ## Hotfix branch
 
@@ -53,5 +61,6 @@ fork repository와 원본 repository에 충돌이 발생했을 때 해결하는 
 
 ## Release branch
 
-작성자 : 
+작성자 : 이의형
 
+Develop branch를 거쳐 master branch 에 있는 release 준비가 완료된 작업물을 버전 태깅을 거쳐 최종적으로 결과물 release를 진행하는 branch.
